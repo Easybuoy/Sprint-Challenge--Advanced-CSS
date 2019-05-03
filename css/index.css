@@ -166,6 +166,9 @@ nav {
   width: 100%;
   align-items: center;
   background-color: #F6F6F6;
+  position: fixed;
+  top: 0;
+  opacity: 0.8;
 }
 nav .logo {
   color: #5E6164;
@@ -349,7 +352,7 @@ footer {
   border-radius: 10px;
 }
 header .header-image {
-  margin-top: 0;
+  margin-top: 120px;
 }
 header .header-image img {
   border-radius: 5px;
