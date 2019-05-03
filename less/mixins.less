@@ -1,1 +1,31 @@
 // Mixins Here
+.flex(@flex-direction: row) {
+    display: flex;
+    flex-direction: @flex-direction;
+}
+
+.link(@color, @hover-color) {
+    color: @color;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+        color: @hover-color;
+    }
+}
+
+.button(@textColor, @backgroundColor, @font-size) {
+    color: @textColor;
+    background-color: @backgroundColor;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    font-size: @font-size;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+        color: @backgroundColor;
+        background-color: @textColor;
+    }
+}
+

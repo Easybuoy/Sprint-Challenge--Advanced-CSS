@@ -165,7 +165,6 @@ nav {
   flex-direction: column;
   width: 100%;
   align-items: center;
-  margin-bottom: 20px;
   background-color: #F6F6F6;
 }
 nav .logo {
@@ -183,8 +182,12 @@ nav ul li {
   font-size: 1.5rem;
 }
 nav a {
-  text-decoration: none;
   color: #5E6164;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #23293B;
 }
 footer {
   color: #22283B;
@@ -238,6 +241,20 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  color: #F6F6F6;
+  background-color: #22283A;
+  padding: 10px;
+  width: 30%;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  color: #22283A;
+  background-color: #F6F6F6;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -246,4 +263,7 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+header .header-image {
+  margin-top: 0;
 }
