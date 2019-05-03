@@ -4,19 +4,24 @@
         width: 100%;
         align-items: center;
         background-color: @navbar-background;
-
+        
         .logo {
             color: @shuttle-gray;
             font-size: 3rem;
             font-weight: bold;
             font-family: 'Russo One', sans-serif;
+            margin-top: 25px;
         }
-
+        
         ul {
             .flex();
             li {
                 margin: 25px;
                 font-size: 1.5rem;
+
+                @media @phone {
+                    margin: 25px 15px;
+                }
             }
         }
         a {
