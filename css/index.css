@@ -173,6 +173,10 @@ nav .logo {
   font-weight: bold;
   font-family: 'Russo One', sans-serif;
   margin-top: 25px;
+  transition: all 0.2s ease-in-out;
+}
+nav .logo:hover {
+  transform: scale(1.1);
 }
 nav ul {
   display: flex;
@@ -181,6 +185,10 @@ nav ul {
 nav ul li {
   margin: 25px;
   font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+nav ul li:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 500px) {
   nav ul li {
@@ -296,6 +304,10 @@ footer {
   font-size: 2rem;
   text-align: center;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.home .walk .walk-text .btn:hover {
+  transform: scale(1.1);
 }
 .home .walk .walk-text .btn:hover {
   color: #22283A;
@@ -311,6 +323,10 @@ footer {
     font-size: 2rem;
     text-align: center;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .home .walk .walk-text .btn:hover {
+    transform: scale(1.1);
   }
   .home .walk .walk-text .btn:hover {
     color: #22283A;
