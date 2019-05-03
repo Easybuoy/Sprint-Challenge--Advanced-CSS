@@ -1,1 +1,29 @@
 // Navigation code here
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: @navbar-background;
+
+        .logo {
+            color: @shuttle-gray;
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: 'Russo One', sans-serif;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            li {
+                margin: 25px;
+                font-size: 1.5rem;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: @shuttle-gray;
+        }
+    }
