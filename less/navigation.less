@@ -1,1 +1,34 @@
 // Navigation code here
+    nav {
+        .flex(column);
+        width: 100%;
+        align-items: center;
+        background-color: @navbar-background;
+        position: fixed;
+        top: 0;
+        opacity: .8;
+        .logo {
+            color: @shuttle-gray;
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: 'Russo One', sans-serif;
+            margin-top: 25px;
+            .transition(.2s, 1.1);
+        }
+        
+        ul { 
+            .flex();
+            li {
+                margin: 25px;
+                font-size: 1.5rem;
+                .transition(.2s, 1.1);
+
+                @media @phone {
+                    margin: 25px 15px;
+                }
+            }
+        }
+        a {
+            .link(@shuttle-gray, @ebony-clay);
+        }
+    }
